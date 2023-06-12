@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(6, 17, 27);
+    color: rgb(181, 193, 196);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+    font-size: x-large;
+    border: red solid 1px;
+    border-radius: 20px;
+    padding: 20px;
+    min-height: 100px;
+    justify-content: center;
+}
+
+.true {
+    color: rgb(9, 190, 9);
+    text-decoration: underline;
+}
+
+.false {
+    color: rgb(238, 26, 26);
+    text-decoration: underline;
+}
+
+.disable {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    font-size: x-large;
+}
